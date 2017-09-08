@@ -59,6 +59,7 @@ for (var i = 0; i < argument_count; i += 2) {
     show_error("Invalid input in argument pair " + string(i >> 1) + " for path constructor.", true);
   }
 }
+path_set_precision(path, precision);
 path_set_closed(path, closed);
 return path;
 }
